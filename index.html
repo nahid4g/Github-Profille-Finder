@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Github Finder</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-primary mb-3">
+		<div class="container">
+			<a href="#" class="navbar-brand">Github Finder</a>
+		</div>
+	</nav>
+
+	<div class="container searchContainer">
+		<div class="search card card-body">
+			<h1>Search Github Users</h1>
+			<p>Enter a username to fetch a user profiles and repo</p>
+			<input type="text" class="form-control" id="searchUser" placeholder="Github Username..">
+			<br>
+			<button class="btn btn-success" id="searchBtn">Search</button>
+		</div>
+		<br>
+		<div id="profile"></div>
+	</div>
+	<footer class="mt-5 p-3 text-center bg-light">
+		Github Finder &copy
+	</footer>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<script src="js/ui.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
